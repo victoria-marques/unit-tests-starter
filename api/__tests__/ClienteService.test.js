@@ -37,8 +37,9 @@ describe("ClienteService (unitario com mocks)", () => {
   });
 
   describe("buscarPorId", () => {
-    test.todo("repassa o id ao repository e retorna o cliente encontrado");
-    test.todo("lanca erro 'Cliente nao encontrado' quando o repository retorna null");
+    test("repassa o id ao repository.")
+    // test.todo("repassa o id ao repository e retorna o cliente encontrado");
+    // test.todo("lanca erro 'Cliente nao encontrado' quando o repository retorna null");
   });
 
   describe("criar", () => {
